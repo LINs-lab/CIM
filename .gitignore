@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.omc/
+
+# Internal / agent docs — not for release
+CLAUDE.md
+
+# Generated outputs: condensed data, logs, PNG grids
+results/
+
+# Large pretrained checkpoints (hosted externally; see README)
+*.pth
+
+# Raw dataset / checkpoint symlinks (machine-specific; see README for layout & download links)
+data/cifar10
+data/cifar100
+data/pretrain_models
+
+# Rebuttal-period experiment scripts (not part of the release)
+run_b4_fid_mmd.py
+run_b5_multiview_noise.py
+run_b5_oneshot_vs_multiview.py
+run_b5_singletype_vs_multitype.py
+run_w1_bound_tightness.py
+run_w1_bound_tightness_paper.py
